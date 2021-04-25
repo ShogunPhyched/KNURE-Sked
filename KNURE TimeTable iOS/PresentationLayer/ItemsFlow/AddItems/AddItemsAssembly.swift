@@ -16,7 +16,6 @@ struct AddItemsAssembly: Assembly {
 			let controller = AddItemsViewController()
 
 			controller.interactor = interactor
-			interactor.output = controller
 
 			return controller
 		}
